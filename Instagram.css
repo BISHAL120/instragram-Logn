@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.login-Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(219, 219, 219);
+}
+.login-Form img {
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.login-Form input {
+  padding: 10px 10px;
+  width: 266px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid rgb(219, 219, 219);
+  outline: none;
+}
+.login-Form .btn1 {
+    background-color: rgba(0, 149, 246, 0.7);
+    border: none;
+    width: 290px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.Divider {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.divider {
+    width: 120px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black ;
+}
+.facebook {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+.facebook a {
+    text-decoration: none;
+}
+.singUp {
+    margin-top: 50px;
+    text-align: center;
+    width: 350px;
+    padding: 25px 0;
+    border: 1px solid rgb(219, 219, 219);;
+}
+.singUp a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+    cursor: pointer;
+}
